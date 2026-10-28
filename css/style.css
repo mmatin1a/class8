@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* all common css */
+
+/* Header Part start */
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+#headerPart{
+    padding-top: 65px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+ 
+}
+
+.logoWithMenu{
+    display:flex;
+    align-items: center;
+   
+   
+}
+
+.menu ul {
+    display: flex;
+    column-gap: 70px;
+}
+
+.menu ul li a{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #474747;
+     
+}
+.logo{
+    width: 50%;
+}
+
+.menu{
+    width: 30%;
+
+}
+.button{
+    width: 20%;
+}
+
+.button a{
+    padding: 25px 35px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Header Part end */
+
+/* Banner Part Start */
+
+
+#bannerPart{
+    padding-top: 300px;
+    padding-bottom: 180px;
+    background: url(../image/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
